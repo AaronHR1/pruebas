@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type = "image/jpg" href="C:\calculadora.jpg">
+</head>
+<body>
+</body>
+
+    <div class="plantilla">
+       <div class="visualizador">
+            <span id="cantidad">0</span>
+       </div>
+       <div class="numeros">
+            <button class="n1", onclick="insertarNumero(1)">
+                1
+            </button>
+            <button class="n2", onclick="insertarNumero(2)">
+                2
+            </button>
+            <button class="n3", onclick="insertarNumero(3)">
+                3
+            </button>
+            <button class="n4", onclick="insertarNumero(4)">
+                4
+            </button>
+            <button class="n5", onclick="insertarNumero(5)">
+                5
+            </button>
+            <button class="n6", onclick="insertarNumero(6)">
+                6
+            </button>
+            <button class="n7", onclick="insertarNumero(7)">
+                7
+            </button>
+            <button class="n8", onclick="insertarNumero(8)">
+                8
+            </button>
+            <button class="n9", onclick="insertarNumero(9)">
+                9
+            </button>
+            <button class="n0", onclick="insertarNumero(0)">
+                0
+            </button>
+
+
+       </div>
+       <div class="operadores">
+            <button class="suma", onclick = "suma()">
+                +
+            </button>
+            <button class="resta", onclick = "resta()">
+                -
+            </button>
+            <button class="multiplicacion", onclick = "multiplicacion()">
+               * 
+            </button>
+            <button class="divicion", onclick = "divicion()">
+                /
+            </button>
+            <button class="igual", onclick = "igual()">
+                =
+            </button>
+       </div>
+
+        <div class="borrar">
+            <button class="delete", onclick="delet()">
+            DELETE
+            </button>
+            <button class="clean", onclick="clean()">
+            CLEAN
+            </button>
+        </div>
+
+    </div>
+    
+    
+
+    
+    
+
+   
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,152 @@
+body{
+    background-color:palegoldenrod;
+}
+
+.plantilla{
+    background-color:brown;
+    width: 35vw;
+    height: 95vh;
+    position: absolute;
+    top: 1%; 
+    left: 35%;
+    border: 2px solid black;
+    
+   
+}
+.visualizador{
+    background-color:rgb(228, 228, 228);
+    width: 33vw;
+    height: 24vh;
+    position: absolute;
+    top: 3%;
+    left: 2.6%;
+    font-size: 500%;
+    text-align: right;
+    border: 2px solid black;
+    
+}
+.numeros{
+    background-color: gray;
+    width: 18.5vw;
+    height: 57vh;
+    position: absolute;
+    top: 34%;
+    left: 4%;
+    border: 2px solid black;
+}
+
+.n1{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    
+}
+.n2{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n3{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n4{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n5{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n6{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n7{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n8{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n9{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.n0{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 33%;
+}
+.operadores{
+    background-color: gray;
+    width: 12.5vw;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    border: 2px solid black;
+}
+.suma{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.resta{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.multiplicacion{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.divicion{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.igual{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 25%;
+}
+.borrar{
+    
+    background-color: gray;
+    width: 12.5vw;
+    height: 18vh;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    border: 2px solid black;
+    
+}
+.delete{
+    
+    width: 65px;
+    height: 80px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+.clean{
+    width: 65px;
+    height: 80px;
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
